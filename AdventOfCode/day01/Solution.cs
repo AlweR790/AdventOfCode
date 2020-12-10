@@ -4,9 +4,13 @@ using System.Text;
 
 namespace AdventOfCode.day01
 {
-	class Solution : IGeneralSolution
+	public class Solution : IGeneralSolution
 	{
-		public string solve()
+		public string part1()
+		{
+			throw new NotImplementedException();
+		}
+		public string part2()
 		{
 			throw new NotImplementedException();
 		}

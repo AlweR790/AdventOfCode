@@ -15,10 +15,11 @@ namespace AdventOfCode
 					switch (dayNumber)
 					{
 						case 1: generalSolution = new day01.Solution(); break;
-						case 2: generalSolution = new day01.Solution(); break;
+						case 2: generalSolution = new day02.Solution(); break;
 						default: Console.WriteLine("Day not solved yet, try again later"); continue;
 					}
-					Console.WriteLine(generalSolution.solve());
+					Console.WriteLine(generalSolution.part1());
+					Console.WriteLine(generalSolution.part2());
 				}
 				else
 				{
